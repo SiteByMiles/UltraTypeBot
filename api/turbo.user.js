@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         UltraType Turbo Mode
+// @name         UltraType Turbo boiiiii
 // @version      1
 // @description  Instantly wins any NitroType race without fail
 // @author       You
@@ -19,7 +19,7 @@ function start() {
     }).on('raceFinish', () => { // Detect when the race has finished
     	// Auto refresh the page
     	console.log('Race has finished, reloading!');
-    	location.reload();
+    	
     });
 }
 (function() {
